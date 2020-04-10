@@ -1,0 +1,69 @@
+* {
+  outline: 1px dotted red;
+  box-sizing: border-box;
+}
+
+header div img:first-child {
+  float: left;
+  z-index: -1;
+}
+
+header h2 {
+  margin-bottom: -16px;
+  margin-top: 0px;
+}
+
+header section {
+  width: 500px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 95px;
+}
+
+header {
+  display: inline-flex;
+  border-bottom: solid 6px grey;
+}
+
+main section {
+  width: 900px
+}
+main section h2 {
+  margin-bottom: -16px;
+}
+
+main section a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* margin-left: 95px; */
+}
+
+main div img:first-child{
+  padding-top: 10px;
+}
+main div p {
+  width: 900px;
+}
+
+main section:nth-child(2) {
+  background-image: ('lab-assets/list-bg.png');
+  width: 800px;
+  height: 300px;
+
+}
+
+#notes {
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
