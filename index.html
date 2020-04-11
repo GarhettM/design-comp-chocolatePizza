@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
     <header>
       <div>
-        <img src="https://placehold.it/50x50/111" alt="" />
+        <img src="lab-assets/logo.png" alt="" />
         <section class="headerTag">
-          <h2>Delicious</h2>
+          <h2><b>Delicious</b></h2>
           <p>BEST FOOD BLOG ON THE WEB</p>
         </section>
       </div>
 
       <nav>
         <ul id="socLinks">
-          <a><img src="https://placehold.it/25x25/111" alt="" /></a>
+          <a><img src="lab-assets/fb-icon.png" alt="" /></a>
 
-          <a><img src="https://placehold.it/25x25/111" alt="" /></a>
+          <a><img src="lab-assets/twit-icon.png" alt="" /></a>
 
-          <a><img src="https://placehold.it/25x25/111" alt="" /></a>
+          <a><img src="lab-assets/gp-icon.png" alt="" /></a>
 
-          <a><img src="https://placehold.it/25x25/111" alt="" /></a>
+          <a><img src="lab-assets/insta-icon.png" alt="" /></a>
 
-          <a><img src="https://placehold.it/25x25/111" alt="" /></a>
+          <a><img src="lab-assets/flic-icon.png" alt="" /></a>
 
-          <a><img src="https://placehold.it/25x25/111" alt="" /></a>
+          <a><img src="lab-assets/pint-icon.png" alt="" /></a>
         </ul>
 
         <ul id="contactUs">
-          <a><img src="https://placehold.it/25x25/111" alt="" /></a>
+          <a><img src="lab-assets/rss-icon.png" alt="" /></a>
 
-          <a><img src="https://placehold.it/25x25/111" alt="" /></a>
+          <a><img src="lab-assets/mail-icon.png" alt="" /></a>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section>
+      <section class="posted">
         <h2>Chocolate Pizza</h2>
         <p>Posted on 15 DEC 2013</p>
-        <a><img src= "https://placehold.it/15x15/111"/>print</a>
+        <a><img src="lab-assets/print-icon.png" />print</a>
       </section>
       <div>
         <img src="lab-assets/choco-pizza.png" alt="" />
@@ -78,43 +81,59 @@
         </p>
 
         <section>
-          <div style="background-image: url('lab-assets/list-bg.png');">
-          <ul>
-            <li>stuff</li>
-            <li>stuff</li>
-            <li>stuff</li>
-            <li>stuff</li>
-            <li>stuff</li>
-            <li>stuff</li>
-            <li>stuff</li>
-          </ul>
+          <div id="list" style="background-image: url('lab-assets/list-bg.png');">
+            <ul id="ul1">
+              <li><input type="checkbox">1 1/2 cups milk</li>
+              <li><input type="checkbox">1/2 cups mascarpone</li>
+              <li><input type="checkbox">1/2 tsp pink salt</li>
+              <li><input type="checkbox">1 lb Black Mission Figs</li>
+              <li><input type="checkbox">1/2 cup brown sugar</li>
+              <li><input type="checkbox">2-4 tbsp water</li>
+           
+              
+            </ul>
 
-          <ul>
-            <li>stuff</li>
-            <li>stuff</li>
-            <li>stuff</li>
-            <li>stuff</li>
-            <li>stuff</li>
-            <li>stuff</li>
-            <li>stuff</li>
-          </ul>
+            <ul id="ul2">
+              <li><input type="checkbox">1 1/2 cups heavy cream</li>
+              <li><input type="checkbox"><strike>1/3 granulated suger</strike></li>
+              <li><input type="checkbox"><strike>2 egg yolks</strike></li>
+              <li><input type="checkbox">1 lemon, juiced</li>
+              <li><input type="checkbox">2 tbsp butter</li>
+              <li><input type="checkbox">1 cup honey roasted pecans, roughly chopped</li>
+              
+              
+              
+            </ul>
+          </div>
         </section>
 
-        <section>
-          <img src="https://placehold.it/75x75/111" alt="" />
-          <h5>Vanessa Stevenson</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia velit
-            nostrum id aliquid doloremque, deleniti reprehenderit dolor quae,
-            iste neque obcaecati rerum recusandae fuga, dolorum non odit harum
-            provident quaerat?
-          </p>
-        </section>
+        
       </div>
     </main>
     <footer>
-      <a><img src="https://placehold.it/25x25/111" alt="" /></a>
-      <p></p>
+       <div>
+        <div>
+          <section>
+            <img src="lab-assets/van-pic.png" alt="" />
+            <h5>Vanessa Stevenson</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia velit
+              nostrum id aliquid doloremque, deleniti reprehenderit dolor quae,
+              
+            </p>
+            <button>SHARE RECIPE</button>
+          </section>
+        </div>
+
+          <a><img src="lab-assets/small-logo.png" alt="" /></a>
+     
+          <p class="bottom">Deliciou 2013 - All Rights Reserved.
+            <br>Proudly published with Ghost
+          </p>
+          <p</p>
+        </div>
     </footer>
-  </body>
+  </div>
+</body>
+
 </html>
